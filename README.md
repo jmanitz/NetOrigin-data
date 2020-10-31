@@ -58,7 +58,7 @@ require(NetOrigin)
 
 ``` r
 # read data from github repo
-# load(url("https://github.com/jmanitz/NetOrigin-data/envirparaList.rda"))
+load("envirparaList.rda")
 # example for Gaussian origin detection
 y0 <- initial_condition_sib_model(envirparaList$popu, envirparaList$sigma, 
   envirparaList$mu_B, envirparaList$theta, c(428))
