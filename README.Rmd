@@ -40,10 +40,10 @@ List "envirparaList", including
 require(NetOrigin)
 # read data from github repo
 load("envirparaList.rda")
-# example for Gaussian origin detection
+
+# example for SIB model
 y0 <- initial_condition_sib_model(envirparaList$popu, envirparaList$sigma, 
   envirparaList$mu_B, envirparaList$theta, c(428))
-
 ```
 
 ## References
