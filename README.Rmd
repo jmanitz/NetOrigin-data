@@ -47,4 +47,4 @@ y0 <- initial_condition_sib_model(envirparaList$popu, envirparaList$sigma,
 ```
 
 ## References
-Jun Li, Juliane Manitz, Enrico Bertuzzo, Eric D. Kolaczyk, Sensor-based localization of epidemic sources on human mobility networks (arXiv link pending)
+Jun Li, Juliane Manitz, Enrico Bertuzzo, Eric D. Kolaczyk, Sensor-based localization of epidemic sources on human mobility networks (arXiv: \url{https://arxiv.org/abs/2011.00138}). Accepted at PLOS Computational Biology. 
